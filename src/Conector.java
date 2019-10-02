@@ -5,7 +5,7 @@ import java.sql.Connection;
 public class Conector {
 	
 	private static final String CONTROLADOR ="com.mysql.jdbc.Driver";
-	private static final String URL ="jdbc:mysql://localhost:3306/almacen";
+	private static final String URL ="jdbc:mysql://localhost:3306/farmacia";
 	private static final String USER ="root";
 	private static final String PASS ="";
 	
