@@ -67,8 +67,8 @@ public class mostrar extends JFrame {
 		btnMostrar = new JButton("Mostrar");
 		btnMostrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				stock st = new inventario(this, true);
-				stsetVisible(true);
+				stock st = new stock(this, true);
+				 setVisible(true);
 			}	
 		});
 		btnMostrar.setBounds(541, 94, 89, 23);
