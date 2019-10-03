@@ -51,7 +51,7 @@ public class mostrar extends JFrame {
 		contentPane.setLayout(null);
 		
 		JComboBox comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Cliente", "Agregar mas"}));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Cliente", "Inventario", "Agregar mas"}));
 		comboBox.setBounds(499, 28, 175, 20);
 		contentPane.add(comboBox);
 		
@@ -67,9 +67,8 @@ public class mostrar extends JFrame {
 		btnMostrar = new JButton("Mostrar");
 		btnMostrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				//if(comboBox.equalsIgnoreCase("Cliente")){
-					
-				//}
+				stock st = new inventario(this, true);
+				stsetVisible(true);
 			}	
 		});
 		btnMostrar.setBounds(541, 94, 89, 23);
