@@ -65,6 +65,10 @@ public class mostrar extends JFrame {
 		contentPane.add(btnSalir);
 		
 		btnMostrar = new JButton("Mostrar");
+		btnMostrar.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnMostrar.setBounds(541, 94, 89, 23);
 		contentPane.add(btnMostrar);
 		
