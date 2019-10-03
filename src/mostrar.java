@@ -67,7 +67,10 @@ public class mostrar extends JFrame {
 		btnMostrar = new JButton("Mostrar");
 		btnMostrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			}
+				//if(comboBox.equalsIgnoreCase("Cliente")){
+					
+				//}
+			}	
 		});
 		btnMostrar.setBounds(541, 94, 89, 23);
 		contentPane.add(btnMostrar);
