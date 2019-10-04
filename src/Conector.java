@@ -6,6 +6,7 @@ public class Conector {
 	
 	private static final String CONTROLADOR ="com.mysql.jdbc.Driver";
 	private static final String URL ="jdbc:mysql://localhost:3306/farmacia";
+	//private static final String URL ="jdbc:mysql://127.0.0.1/"+ farmacia;
 	private static final String USER ="root";
 	private static final String PASS ="";
 	
